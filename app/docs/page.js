@@ -40,13 +40,13 @@ export default function ApiDocs() {
       }
     }
 
-    return () => {
+    /*return () => {
       document.head.removeChild(linkStyle)
       document.head.removeChild(customStyle)
       document.body.removeChild(scriptBundle)
       document.body.removeChild(scriptPreset)
     }
-  }, [])
+  }, [])*/
 
   return <div id="swagger-ui" style={{ height: "100vh" }}/>
 }
